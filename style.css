@@ -1,0 +1,149 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(255, 255, 255);  /*цвет*/
+}
+
+form{
+    width: 53%;
+    float: right;
+    display: flex;
+}
+
+input{
+    padding: 7px 6px;
+    border: 5px;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.poisk{
+    width: 100%;
+}
+
+.baton{
+    width: 25%;
+    background-color: brown;
+    color: beige
+}
+
+.baton:hover{
+    cursor: no-drop;
+    background-color: black;
+    color: red;
+}
+
+main{
+    height: 1000px;   /*высота основной части*/
+    display: flex;
+}
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.venom_raz{
+    width: 25%;
+    height: 40%;
+    background-color: blue;
+}
+.venom_dva{
+    width: 25%;
+    height: 40%;
+    background-color: red;
+}
+.venom_tri{
+    width: 25%;
+    height: 40%;
+    background-color: yellow;
+}
+.venom_4{
+    width: 25%;
+    height: 40%;
+    background-color: green;
+}
+.nav{
+    position: sticky;
+    top: 0;
+}
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: purple;
+    font-size: 30px;
+    width: 100%;
+    border: 2px solid hotpink;
+    overflow: hidden;
+}
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: red;
+    padding: 20 px 40 px;
+    float: left;
+    margin: 5px;
+}
+.nav a:hover{
+    background-color: gray;
+    color: black;
+}
+
+.block5{
+    width: 100%;
+    height: 300px;
+    padding: 50px;
+    background-color: aqua;
+}
+
+.botan1{
+    width: 300px;
+    height: 70;
+    background-color: brown;
+    color: black;
+    padding: 42px 52px;
+    font-size: 42px;
+    text-align: bottom;
+    text-decoration: none;
+    border: 3px solid;
+    display: inline;
+    border-radius: none;
+    box-shadow: none;
+    cursor: not-allowed;
+}
+
+.botan1:hover{
+    background-color: red;
+}
